@@ -1,0 +1,108 @@
+
+.blazer{
+    width: 60%;
+    height: 660px;
+    border: 1px solid #e4e4e4;
+    margin: auto;
+    background-image: url(https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/global_campaigns/season_08/men/3128/3128-v2-1x1-2-aw-2023-men.jpg]&scale=size[562]&sink=format[jpeg],quality[80]);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    
+}
+.blazer-1{
+    width: 60%;
+    height: 660px;
+    border: 1px solid #e4e4e4;
+    margin: auto;
+    background-image: url(https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/TOOLBOX/PRE_SEASON/2023_s08/september_2023/TCM8028_1x1.jpg]&scale=size[562]&sink=format[jpeg],quality[80]);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    
+}
+.blz-price{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-top: 200px;
+    
+   
+    
+   
+}
+/* .blz-price p{
+    margin-top: 50px;
+} */
+
+.blz-head{
+    margin-top: 100px;
+    margin-left: 350px;
+    color: white;
+    margin-bottom: 50px;
+}
+.blz-head h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.blz-head p{
+    margin-left: 80px;
+}
+.blazer button{
+    margin-left: 480px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    
+}
+.blazer-1 button{
+    margin-left: 480px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    
+}
+.wardrobe{
+    width: 60%;
+    height: 150px;
+    border: 1px solid #e4e4e4;
+    margin: auto;
+    background-image: url(https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/global_campaigns/season_08/ladies/1008/1008-3x1-alt-2-autumn-winter-2023-drop-1.jpg]&scale=size[960]&sink=format[jpeg],quality[80]);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.wrdb-head{
+    /* margin-left: 400px; */
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.wrdb-button{
+    text-align: center;
+}
+.wrdb-button button{
+    margin-right: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+    /* position: relative; */
+}
+.wrdb-button button:hover{
+    /* position: absolute; */
+    background-color: grey;
+}
+
+
+
+

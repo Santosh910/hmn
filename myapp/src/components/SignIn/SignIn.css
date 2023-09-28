@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container-m{
+    width: 650px;
+    height: 650px;
+    border: 1px solid #faf9f8;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #faf9f8;
+}
+.main-head{
+    width: 550px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.main-head h1{
+    text-align: start;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.lab-1 {
+    margin-right: 500px;
+    font-size: 20px;
+    
+}
+
+.lab-2{
+    margin-right: 465px;
+    font-size: 20px;
+   
+}
+.email{
+    width: 550px;
+    height: 60px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.password{
+    width: 550px;
+    height: 60px;
+    margin-top: 5px;
+}
+.check{
+    margin: auto;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.check a{
+    color: black;
+}
+.check-l {
+    display: flex;
+}
+.check-l input{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.check-l span{
+    margin-top: 5px;
+}
+.bt-si{
+    width: 550px;
+    height: 60px;
+    background-color: black;
+    color: #faf9f8;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.be-me{
+    width: 550px;
+    height: 60px;
+    background-color: #faf9f8;
+    color:black ;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+a{
+    color: black;
+}
