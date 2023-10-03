@@ -1,4 +1,9 @@
 import React from "react";
+import './Header.css'
+
+
+
+
 
 function Header() {
     return (
@@ -19,9 +24,9 @@ function Header() {
 
                 <div className="hdr-right">
                     <ul>
-                        <li><i class="fa-regular fa-user"></i><span>sign in</span></li>
-                        <li><i class="fa-regular fa-heart"></i><span>favourite</span></li>
-                        <li><i class="fa-light fa-bag-shopping"></i><span>shopping bag (0)</span></li>
+                        <li><i class="fa-regular fa-user"></i><a href="/signin">sign in</a></li>
+                        <li><span>favourite</span></li>
+                        <li><span>shopping bag (0)</span></li>
                     </ul>
                 </div>
             </div>

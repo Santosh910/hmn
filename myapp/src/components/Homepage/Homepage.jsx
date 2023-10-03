@@ -3,9 +3,9 @@ import './Homepage.css';
 
 function Homepage() {
     return (
-        <div className="container">
-            <div className="header">
-                <div className="hdr-left">
+        <div className="container-h">
+            <div className="header-h">
+                <div className="hdr-left-h">
                     <ul>
                         <li>customer service</li>
                         <li>newsletter</li>
@@ -13,12 +13,12 @@ function Homepage() {
                         <li></li>
                     </ul>
                 </div>
-                <div className="logo">
+                <div className="logo-h">
                     <img src="https://logos-world.net/wp-content/uploads/2020/04/HM-Logo.png" alt="" />
 
                 </div>
 
-                <div className="hdr-right">
+                <div className="hdr-right-h">
                     <ul>
                         <li><i class="fa-regular fa-user"></i><a href="/signin" target="blank">sign in</a></li>
                         <li><i class="fa-regular fa-heart"></i><span>favourite</span></li>
@@ -27,8 +27,8 @@ function Homepage() {
                 </div>
             </div>
 
-            <div className="product-list">
-                <div className="pr-list-cen">
+            <div className="product-list-h">
+                <div className="pr-list-cen-h">
                     <ul>
                         <li>ladies</li>
                         <li>men</li>
@@ -41,7 +41,7 @@ function Homepage() {
                         <li>sale</li>
                     </ul>
                 </div>
-                <div className="search-box">
+                <div className="search-box-h">
                     <i class="fa-light fa-magnifying-glass"></i>
                     <input type="text" placeholder="search products" />
 
@@ -374,7 +374,7 @@ function Homepage() {
                 <div className="ft-logo">
                     <img src="https://th.bing.com/th/id/OIP.XBSvgfrG-kuYAMfPPVTSXAHaFG?pid=ImgDet&rs=1" alt="" />
 
-                    <h4>INDIA | Rs.</h4>
+                    <h6>INDIA | Rs.</h6>
                 </div>
             </div>
         </div>

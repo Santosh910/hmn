@@ -1,0 +1,101 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width:100%;
+    background-color: #faf9f8;
+}
+.header{
+    width: 96%;
+    height: 100px;
+    display: flex;
+    margin-left: 2%;
+    /* border: 1px solid black; */
+}
+.hdr-left{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.hdr-left ul li{
+   display: inline-block;
+   list-style: none;
+   margin-left: 15px;
+   font-size: 12px;
+   letter-spacing: 0.5px;
+   text-transform: capitalize;
+   cursor: pointer;
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-right: 300px;
+}
+.logo img{
+    width: 70px;
+}
+.hdr-right{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    margin-top: 40px;
+}
+.hdr-right li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    font-size: 13px;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+.hdr-right li a{
+    margin-right:10px;
+}
+.hdr-right span{
+    margin-left: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.product-list{
+    width: 1000px;
+    height: 50px;
+    padding-top: 25px;
+    margin-left: 300px;
+    display: flex;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+}
+.pr-list-cen{
+    width: 900px;
+    margin-right: 50px;
+}
+.pr-list-cen li{
+   display: inline-block;
+   margin-right: 30px;
+   font-size: 16px;
+   font-weight: 600;
+   letter-spacing: 1px;
+   text-transform: capitalize;
+}
+.search-box{
+    display: flex;
+    width: 150px;
+    height: 30px;
+     border-bottom: 2px solid black;
+}
+.search-box input{
+    border: none;
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+   
+}
