@@ -9,6 +9,7 @@ import SignIn from './components/SignIn/SignIn';
 import ShopNow from './components/Shop Now/ShopNow';
 import ProductPage from './components/ProductPage/ProductPage';
 import Cart from './components/Cart/Cart';
+import Register from './components/register/Register';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route exact path='/shopNow' element={<ShopNow/>} />
       <Route exact path='/productPage' element={<ProductPage/>}/>
       <Route exact path='/cart' element={<Cart/>}/>
+      <Route exact path='/register' element={<Register/>}/>
      </Routes>
      
     </div>

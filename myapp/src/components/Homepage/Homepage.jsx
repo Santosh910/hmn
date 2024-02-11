@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import './Homepage.css';
+import { AuthContext } from "../AuthContext";
 
 function Homepage() {
+    const {state} = useContext(AuthContext)
     return (
         <div className="container-h">
             <div className="header-h">
@@ -20,18 +22,22 @@ function Homepage() {
 
                 <div className="hdr-right-h">
                     <ul>
-                        <li><i class="fa-regular fa-user"></i><a href="/signin" target="blank">sign in</a></li>
+                        <li>{state?.user?.id?
+                            <div>{state?.user?.name}</div> :
+                            <>
+                            <i class="fa-regular fa-user"></i><a href="/signin" target="blank">sign in</a></> }
+                        </li>
                         <li><i class="fa-regular fa-heart"></i><span>favourite</span></li>
-                        <li><i class="fa-light fa-bag-shopping"></i><span>shopping bag (0)</span></li>
+                        <li><i class="fa-regular fa-bag-shopping"></i><span>shopping bag (0)</span></li>
                     </ul>
                 </div>
             </div>
 
             <div className="product-list-h">
                 <div className="pr-list-cen-h">
-                    <ul>
+                    <ul style={{cursor:"pointer"}}>
                         <li>ladies</li>
-                        <li>men</li>
+                        <li ><a href="/men" target="blank">men </a> </li>
                         <li>divided</li>
                         <li>baby</li>
                         <li>kids</li>
